@@ -12,7 +12,12 @@ ReactDOM.render(
     </div>
     <small>
       <p className="gitlink mt-2">
-        <a className="opensource" href="https://github.com/sastubblefield">
+        <a
+          className="opensource"
+          href="https://github.com/sastubblefield/weather-react"
+          target="_blank"
+          rel="n"
+        >
           Open-source Code
         </a>
         , by Shannon Stubblefield
