@@ -1,19 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <form>
+          <input type="search" placeholder="Enter a City..." />
+          <input type="submit" value="Search" />
+        </form>
     </div>
   );
 }
