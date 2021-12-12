@@ -10,6 +10,14 @@ ReactDOM.render(
       <h1>Weather App</h1>
       <App />
     </div>
+    <small>
+      <p className="gitlink mt-2">
+        <a className="opensource" href="https://github.com/sastubblefield">
+          Open-source Code
+        </a>
+        , by Shannon Stubblefield
+      </p>
+    </small>
   </React.StrictMode>,
   document.getElementById("root")
 );
