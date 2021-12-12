@@ -1,3 +1,4 @@
+import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
             <br />
           </div>
           <div className="description">clear</div>
-        </h2>
+        </h2>{" "}
         <a
           className="App-link"
           href="https://reactjs.org"
