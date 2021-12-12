@@ -16,7 +16,7 @@ ReactDOM.render(
           className="opensource"
           href="https://github.com/sastubblefield/weather-react"
           target="_blank"
-          rel="n"
+          rel="noopener noreferrer"
         >
           Open-source Code
         </a>
