@@ -1,0 +1,15 @@
+.container {
+  max-width: 400px;
+  padding: 75px 60px 50px 60px;
+  border-radius: 3%;
+  margin: auto;
+  margin-top: 60px;
+  background: #f7f5f4;
+}
+h1 {
+  color: #acaaaa;
+  font-weight: 200;
+    margin-left: 90px;
+
+}
+
