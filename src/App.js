@@ -6,10 +6,14 @@ function App() {
       <form>
         <input
           type="search"
-          placeholder="Enter a City..."
-          className="form-control form-control-lg font-weight-lighter"
+          placeholder="enter a city..."
+          className="mt-4 form-control form-control-lg font-weight-lighter"
         />
-        <input type="submit" value="Search" />
+        <input
+          type="submit"
+          value="search"
+          className="mt-4 btn btn-secondary font-weight-lighter input-button"
+        />
       </form>
     </div>
   );

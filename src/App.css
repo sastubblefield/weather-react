@@ -1,5 +1,6 @@
 form {
-  margin-bottom: 50px;
-  margin-top: -10px;
-  margin-left: 90px;
+  font-variant: small-caps;
+}
+.input-button {
+  margin-left: 100px;
 }
