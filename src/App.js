@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 function App() {
@@ -7,12 +8,12 @@ function App() {
         <input
           type="search"
           placeholder="enter a city..."
-          className="mt-4 form-control form-control-lg font-weight-lighter"
+          className="mt-4 form-control form-control-lg input-box"
         />
         <input
           type="submit"
           value="search"
-          className="mt-4 btn btn-secondary font-weight-lighter input-button"
+          className="mt-4 btn btn-secondary input-button"
         />
       </form>
     </div>
