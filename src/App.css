@@ -2,8 +2,15 @@ form {
   font-variant: small-caps;
 }
 .input-button {
-  margin-left: 100px;
+  margin-left: 235px;
+  font-weight: lighter;
+  background-color: #c6bfbf;
+  color: white;
 }
 .input-box {
   font-weight: lighter;
+}
+.container {
+  margin-top: 40px;
+  color: #acaaaa;
 }

@@ -13,7 +13,7 @@ function App() {
         <input
           type="submit"
           value="search"
-          className="mt-4 btn btn-secondary input-button"
+          className="mt-4 btn btn-lg input-button"
         />
       </form>
       <div class="container">
