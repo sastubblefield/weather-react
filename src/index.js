@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
-import App from "./App";
+import Weather from "./Weather";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
     <div className="container">
       <h1>Weather App</h1>
-      <App />
+      <Weather />
     </div>
     <small>
       <p className="gitlink mt-2">

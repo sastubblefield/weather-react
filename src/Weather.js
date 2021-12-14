@@ -1,14 +1,14 @@
-import "bootstrap/dist/css/bootstrap.css";
-import "./App.css";
+import "./Weather.css";
 
-function App() {
+function Weather() {
   return (
-    <div className="App">
+    <div>
+      <weather />
       <form>
         <input
           type="search"
-          placeholder="enter a city..."
-          className="mt-4 form-control form-control-lg input-box"
+          placeholder="Enter a city..."
+          className="mt-4 form-control form-control-md input-box"
         />
         <input
           type="submit"
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default Weather;
