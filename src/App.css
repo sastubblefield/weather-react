@@ -2,7 +2,6 @@ form {
   font-variant: small-caps;
 }
 .input-button {
-  margin-left: 235px;
   font-weight: lighter;
   background-color: #c6bfbf;
   color: white;
@@ -13,4 +12,28 @@ form {
 .container {
   margin-top: 40px;
   color: #acaaaa;
+}
+.col {
+  text-align: center;
+}
+.temp-number {
+  color: #f2c2ae;;
+  font-size: 120px;
+  margin-top: -25px;
+  margin-right: 20px;
+  text-align: center;
+    font-weight: 100;
+
+
+}
+.forecast-list li {
+  list-style: none;
+  color: #8e8b8b;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 200;
+  font-variant: small-caps;
+}
+.forecast-list {
+  margin-top: -155px;
 }

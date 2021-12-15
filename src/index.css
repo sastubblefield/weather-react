@@ -1,5 +1,5 @@
 .app-container {
-  max-width: 700px;
+  max-width: 600px;
   padding: 75px 60px 50px 60px;
   border-radius: 3%;
   margin: auto;
@@ -10,7 +10,6 @@
 h1 {
   color: #acaaaa;
   font-weight: 200;
-  text-align: center;
 }
 .gitlink {
   text-align: center;
