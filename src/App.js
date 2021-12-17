@@ -3,7 +3,7 @@ import "./App.css";
 import axios from "axios";
 
 function App(props) {
-  const [weatherData, setWeatherData] = useState({ready:false});
+  const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -54,10 +54,7 @@ function App(props) {
           </div>
           <div className="row">
             <div className="col">
-              <img
-                src={weatherData.icon}
-                width="40"
-              />
+              <img src={weatherData.icon} alt="Forecast Icon" width="40" />
             </div>
             <div className="col">
               <img
