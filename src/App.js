@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate";
 import "./App.css";
 import axios from "axios";
 
@@ -11,7 +12,7 @@ function App(props) {
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
-      time: "Thursday 12:00 am",
+      date: new Date(response.data.dt * 1000),
       wind: response.data.wind.speed,
       city: response.data.name,
     });
@@ -36,7 +37,9 @@ function App(props) {
         <div className="forecast-list">
           <ul>
             <li>{weatherData.city}</li>
-            <li>{weatherData.date}</li>
+            <li>
+              <FormattedDate date={weatherData.date} />
+            </li>
             <li>Humidity: {weatherData.humidity}%</li>
             <li>Wind: {weatherData.wind}mph</li>
             <li>{weatherData.description}</li>
@@ -54,7 +57,11 @@ function App(props) {
           </div>
           <div className="row">
             <div className="col">
-              <img src={weatherData.icon} alt="Forecast Icon" width="40" />
+              <img
+                src={weatherData.icon}
+                alt={weatherData.description}
+                width="40"
+              />
             </div>
             <div className="col">
               <img
