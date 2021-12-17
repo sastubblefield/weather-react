@@ -8,7 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <div className="app-container">
-      <App />
+      <App defaultCity="Austin"/>
     </div>
     <small>
       <p className="gitlink mt-2">
