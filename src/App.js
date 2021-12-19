@@ -5,6 +5,8 @@ import ForecastInfo from "./ForecastInfo";
 
 function App(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
+  const [city, cityInput] = useState(props.defaultCity);
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -18,14 +20,30 @@ function App(props) {
     });
   }
 
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
+  }
+
+  function handleCityInput(event) {
+    cityInput(event.target.value);
+  }
+
+  function search() {
+    const apiKey = "73bb802b6842545f8bc067782928d7ae";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+    axios.get(apiUrl).then(handleResponse);
+  }
+
   if (weatherData.ready) {
     return (
       <div>
-        <form>
+        <form onSubmit={handleSubmit}>
           <input
             type="search"
             placeholder="Enter a city..."
             className="form-control form-control-lg input-box"
+            onChange={handleCityInput}
           />
           <input
             type="button"
@@ -37,10 +55,7 @@ function App(props) {
       </div>
     );
   } else {
-    const apiKey = "73bb802b6842545f8bc067782928d7ae";
-    let city = "Austin";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=imperial`;
-    axios.get(apiUrl).then(handleResponse);
+    search();
     return "Loading...";
   }
 }

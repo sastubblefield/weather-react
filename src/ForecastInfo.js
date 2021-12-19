@@ -35,38 +35,44 @@ export default function ForecastInfo(props) {
             />
           </div>
           <div className="col">
-            <img
-              src="https://openweathermap.org/img/wn/01d@2x.png"
+             <img
+              src={props.data.icon}
+              alt={props.data.description}
               width="40"
             />
           </div>{" "}
           <div className="col">
-            <img
-              src="https://openweathermap.org/img/wn/01d@2x.png"
+             <img
+              src={props.data.icon}
+              alt={props.data.description}
               width="40"
             />
           </div>{" "}
           <div className="col">
-            <img
-              src="https://openweathermap.org/img/wn/01d@2x.png"
+             <img
+              src={props.data.icon}
+              alt={props.data.description}
               width="40"
             />
           </div>{" "}
           <div className="col">
-            <img
-              src="https://openweathermap.org/img/wn/01d@2x.png"
+             <img
+              src={props.data.icon}
+              alt={props.data.description}
               width="40"
             />
           </div>
           <div className="col">
-            <img
-              src="https://openweathermap.org/img/wn/01d@2x.png"
+             <img
+              src={props.data.icon}
+              alt={props.data.description}
               width="40"
             />
           </div>
           <div className="col">
-            <img
-              src="https://openweathermap.org/img/wn/01d@2x.png"
+             <img
+              src={props.data.icon}
+              alt={props.data.description}
               width="40"
             />
           </div>
