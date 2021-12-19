@@ -9,19 +9,13 @@ form {
 .input-box {
   font-weight: lighter;
 }
-.container {
-  margin-top: 40px;
-  color: #acaaaa;
-}
-.col {
-  text-align: center;
-}
 .temp-number {
   color: #f4ad8f;
-  font-size: 150px;
+  font-size: 130px;
   margin-top: -25px;
-  margin-right: 20px;
   text-align: center;
+  margin-right: 50px;
+
   font-weight: 100;
 }
 .forecast-list li {
@@ -33,6 +27,9 @@ form {
   font-variant: small-caps;
 }
 .forecast-list {
-  margin-top: -185px;
- 
+  margin-top: -155px;
+}
+.forecast-icon {
+  text-align: left;
+  margin-top: -90px;
 }
