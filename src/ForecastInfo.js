@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import ForecastIcon from "./ForecastIcon";
 
 export default function ForecastInfo(props) {
   return (
@@ -28,53 +29,25 @@ export default function ForecastInfo(props) {
         </div>
         <div className="row">
           <div className="col">
-            <img
-              src={props.data.icon}
-              alt={props.data.description}
-              width="40"
-            />
+            <ForecastIcon code={props.data.icon} />
           </div>
           <div className="col">
-             <img
-              src={props.data.icon}
-              alt={props.data.description}
-              width="40"
-            />
+            <ForecastIcon code={props.data.icon} />
           </div>{" "}
           <div className="col">
-             <img
-              src={props.data.icon}
-              alt={props.data.description}
-              width="40"
-            />
+            <ForecastIcon code={props.data.icon} />
           </div>{" "}
           <div className="col">
-             <img
-              src={props.data.icon}
-              alt={props.data.description}
-              width="40"
-            />
+            <ForecastIcon code={props.data.icon} />
           </div>{" "}
           <div className="col">
-             <img
-              src={props.data.icon}
-              alt={props.data.description}
-              width="40"
-            />
+            <ForecastIcon code={props.data.icon} />
           </div>
           <div className="col">
-             <img
-              src={props.data.icon}
-              alt={props.data.description}
-              width="40"
-            />
+            <ForecastIcon code={props.data.icon} />
           </div>
           <div className="col">
-             <img
-              src={props.data.icon}
-              alt={props.data.description}
-              width="40"
-            />
+            <ForecastIcon code={props.data.icon} />
           </div>
         </div>
         <div className="row">
