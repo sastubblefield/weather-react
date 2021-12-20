@@ -11,25 +11,23 @@ form {
 }
 .temp-number {
   color: #f4ad8f;
-  font-size: 130px;
-  margin-top: -25px;
   text-align: center;
-  margin-right: 50px;
-
-  font-weight: 100;
+  font-size: 150px;
 }
 .forecast-list li {
   list-style: none;
   color: #8e8b8b;
-  text-align: right;
   font-size: 22px;
   font-weight: 200;
   font-variant: small-caps;
 }
 .forecast-list {
-  margin-top: -155px;
+  margin-top: -15px;
+  text-align: center;
+  margin-left: -45px;
 }
-.forecast-icon {
-  text-align: left;
-  margin-top: -90px;
+.fahrenheit-unit {
+  font-size: 20px;
+  position: fixed;
+  margin-top: 50px;
 }

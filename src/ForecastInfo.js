@@ -1,16 +1,20 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import ForecastIcon from "./ForecastIcon";
+import ForecastTemperature from "./ForecastTemperature";
 
 export default function ForecastInfo(props) {
   return (
     <div>
-      <h1 className="temp-number">{Math.round(props.data.temperature)}</h1>
-      <div className="forecast-icon">
-        <ForecastIcon code={props.data.icon} />
-      </div>
       <div className="forecast-list">
         <ul>
+          <li>
+            <ForecastTemperature fahrenheit={props.data.temperature} />
+          </li>
+          <hr/>
+          <li className= "mt-5">
+            <ForecastIcon code={props.data.icon} />
+          </li>
           <li>{props.data.city}</li>
           <li>
             <FormattedDate date={props.data.date} />
