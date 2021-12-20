@@ -9,11 +9,13 @@ form {
 .input-box {
   font-weight: lighter;
 }
+
 .temp-number {
   color: #f4ad8f;
   text-align: center;
   font-size: 150px;
 }
+
 .forecast-list li {
   list-style: none;
   color: #8e8b8b;

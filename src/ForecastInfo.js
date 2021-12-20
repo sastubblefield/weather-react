@@ -15,7 +15,7 @@ export default function ForecastInfo(props) {
           <li className="mt-5">
             <ForecastIcon code={props.data.icon} />
           </li>
-          <li>{props.data.city}</li>
+          <li className="fs-1 fw-light">{props.data.city}</li>
           <li>
             <FormattedDate date={props.data.date} />
           </li>
