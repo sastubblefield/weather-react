@@ -11,8 +11,8 @@ export default function ForecastInfo(props) {
           <li>
             <ForecastTemperature fahrenheit={props.data.temperature} />
           </li>
-          <hr/>
-          <li className= "mt-5">
+          <hr />
+          <li className="mt-5">
             <ForecastIcon code={props.data.icon} />
           </li>
           <li>{props.data.city}</li>
