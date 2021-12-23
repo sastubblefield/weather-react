@@ -8,7 +8,7 @@ export default function ForecastInfo(props) {
     <div>
       <div className="forecast-list">
         <ul>
-          <li>
+          <li >
             <ForecastTemperature fahrenheit={props.data.temperature} />
           </li>
           <hr />

@@ -9,13 +9,11 @@ form {
 .input-box {
   font-weight: lighter;
 }
-
 .temp-number {
   color: #f4ad8f;
   text-align: center;
   font-size: 150px;
 }
-
 .forecast-list li {
   list-style: none;
   color: #8e8b8b;
@@ -30,10 +28,13 @@ form {
 }
 .fahrenheit-unit {
   font-size: 18px;
-  position: fixed;
-  margin-top: 70px;
 }
 a {
   text-decoration: none;
   color: #c6bfbf;
+}
+.row {
+  color: #8e8b8b;
+  font-weight: 200;
+  font-size: 16px;
 }
