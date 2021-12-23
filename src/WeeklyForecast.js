@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import ForecastIcon from "./ForecastIcon";
+import ForecastDay from "./ForecastDay";
 
 export default function WeeklyForecast(props) {
   let [loaded, setLoaded] = useState(false);
@@ -10,22 +10,14 @@ export default function WeeklyForecast(props) {
     setForecast(response.data.daily);
     setLoaded(true);
   }
+
   if (loaded) {
     return (
       <div className="container mt-5">
         <div className="row">
-          <div className="col">MON</div>
-        </div>
-        <div className="row">
           <div className="col">
-            <ForecastIcon data={forecast[0]} />
+            <ForecastDay data={forecast[0]} />
           </div>
-        </div>
-        <div className="row">
-          <div className="col">{forecast[0].temp.max}º</div>
-        </div>
-        <div className="row">
-          <div className="col">{forecast[0].temp.min}º</div>
         </div>
       </div>
     );
