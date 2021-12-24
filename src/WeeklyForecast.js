@@ -16,7 +16,6 @@ export default function WeeklyForecast(props) {
       <div className="container mt-5">
         <div className="row">
           <div className="col">
-
             <ForecastDay data={forecast[0]} />
           </div>
           <div className="col">
@@ -35,8 +34,8 @@ export default function WeeklyForecast(props) {
       </div>
     );
   } else {
-    let latitude = 40.7;
-    let longitude = 70;
+    let latitude = props.coordinates.lat;
+    let longitude = props.coordinates.lon;
     let apiKey = "73bb802b6842545f8bc067782928d7ae";
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`;
     axios.get(apiUrl).then(handleResponse);
