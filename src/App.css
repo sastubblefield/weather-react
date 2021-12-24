@@ -33,8 +33,13 @@ a {
   text-decoration: none;
   color: #c6bfbf;
 }
-.row {
+.row{
   color: #8e8b8b;
   font-weight: 200;
   font-size: 16px;
+  text-align: center;
+}
+.temp-min{
+    opacity: 0.5;
+
 }
