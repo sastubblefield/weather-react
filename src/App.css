@@ -5,14 +5,17 @@ form {
   font-weight: lighter;
   background-color: #c6bfbf;
   color: white;
+  margin-left: 160px;
 }
 .input-box {
   font-weight: lighter;
 }
 .temp-number {
-  color: #f4ad8f;
+  color: #aba4a4;
   text-align: center;
-  font-size: 150px;
+  opacity: 0.6;
+  font-size: 200px;
+  margin-top: -35px;
 }
 .forecast-list li {
   list-style: none;
@@ -31,15 +34,14 @@ form {
 }
 a {
   text-decoration: none;
-  color: #c6bfbf;
+  color: #f5c3ae;
 }
-.row{
+.row {
   color: #8e8b8b;
   font-weight: 200;
   font-size: 16px;
   text-align: center;
 }
-.temp-min{
-    opacity: 0.5;
-
+.temp-min {
+  opacity: 0.5;
 }

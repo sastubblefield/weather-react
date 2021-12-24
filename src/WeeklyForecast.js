@@ -16,6 +16,7 @@ export default function WeeklyForecast(props) {
       <div className="container mt-5">
         <div className="row">
           <div className="col">
+
             <ForecastDay data={forecast[0]} />
           </div>
           <div className="col">

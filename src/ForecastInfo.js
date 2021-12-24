@@ -12,7 +12,7 @@ export default function ForecastInfo(props) {
             <ForecastTemperature fahrenheit={props.data.temperature} />
           </li>
           <hr />
-          <li className="mt-5">
+          <li className="mt-4">
             <ForecastIcon code={props.data.icon} />
           </li>
           <li className="fs-1 fw-light">{props.data.city}</li>

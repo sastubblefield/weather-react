@@ -42,15 +42,15 @@ function App(props) {
       <div>
         <form onSubmit={handleSubmit}>
           <input
-            type="search"
-            placeholder="Enter a city..."
-            className="form-control form-control-lg input-box"
-            onChange={handleCityInput}
-          />
-          <input
             type="button"
             value="search"
-            className="input-button mt-4 btn btn-lg btn-block"
+            className="input-button mt-3 btn btn-lg btn-block"
+          />
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            className="form-control form-control-lg mt-4 input-box"
+            onChange={handleCityInput}
           />
         </form>
         <ForecastInfo data={weatherData} />

@@ -15,7 +15,7 @@ export default function ForecastTemperature(props) {
   if (unit === "fahrenheit") {
     return (
       <div>
-        <h1 className="temp-number">
+        <h1 className="temp-number fw-lighter">
           {Math.round(props.fahrenheit)}
           <span className="fahrenheit-unit">
             ºF |{" "}
