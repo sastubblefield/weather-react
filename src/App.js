@@ -54,7 +54,7 @@ function App(props) {
           />
         </form>
         <ForecastInfo data={weatherData} />
-        <WeeklyForecast coordinates={weatherData.coord} />
+        <WeeklyForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
