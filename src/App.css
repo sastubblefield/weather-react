@@ -5,7 +5,7 @@ form {
   font-weight: lighter;
   background-color: #c6bfbf;
   color: white;
-  margin-left: 160px;
+margin-left: 345px;
 }
 .input-box {
   font-weight: lighter;
@@ -14,8 +14,8 @@ form {
   color: #aba4a4;
   text-align: center;
   opacity: 0.6;
-  font-size: 200px;
-  margin-top: -35px;
+  font-size: 190px;
+  margin-top: -85px;
 }
 .forecast-list li {
   list-style: none;

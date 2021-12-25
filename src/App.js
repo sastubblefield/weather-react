@@ -44,13 +44,13 @@ function App(props) {
           <input
             type="search"
             placeholder="Enter a city..."
-            className="form-control form-control-lg mt-4 input-box"
+            className="form-control form-control-lg input-box"
             onChange={handleCityInput}
           />
           <input
-            type="button"
+            type="submit"
             value="search"
-            className="input-button mt-3 btn btn-lg btn-block"
+            className="input-button form-inline btn btn-sm mt-3"
           />
         </form>
         <ForecastInfo data={weatherData} />
