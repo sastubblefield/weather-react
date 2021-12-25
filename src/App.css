@@ -5,7 +5,7 @@ form {
   font-weight: lighter;
   background-color: #c6bfbf;
   color: white;
-margin-left: 345px;
+  margin-left: 345px;
 }
 .input-box {
   font-weight: lighter;
@@ -44,4 +44,10 @@ a {
 }
 .temp-min {
   opacity: 0.5;
+}
+
+@media (max-width: 576px) {
+  .temp-number {
+    font-size: 150px;
+  }
 }
