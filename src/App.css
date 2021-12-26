@@ -49,9 +49,9 @@ a {
 @media (max-width: 576px) {
   .temp-number {
     font-size: 150px;
+    margin-top: 20px;
   }
   .input-button {
-      margin-left: 255px;
-
+    margin-left: 120px;
   }
 }
