@@ -50,4 +50,8 @@ a {
   .temp-number {
     font-size: 150px;
   }
+  .input-button {
+      margin-left: 255px;
+
+  }
 }
